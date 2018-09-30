@@ -1,0 +1,54 @@
+1. Actions
+- Init
+	- Open
+- Add task
+	- Save
+	- Show message
+- Remove task
+	- Save
+	- Show message
+- Complete task
+	- Save
+	- Show message
+- Re-order task
+	- Save
+
+
+2. UI
+- Title
+- Add task form
+- Tasks list
+	- drag handler
+	- done or not
+	- remove button
+	- complete button
+- Message
+
+
+3. Libs
+- Drag and drop?
+- Save json
+- Jest
+- Babel
+- Prop types
+
+------
+
+4. config
+5. create components
+	- app.js
+	- add-task.js
+	- tasks-list.js
+		- task-item.js
+			- status.js
+			- button.js
+6. create state
+	- tasks list
+		- task
+			- text
+			- status: [done, open]
+			- pos
+
+7. add actions
+8. write tests
+9. write documentation

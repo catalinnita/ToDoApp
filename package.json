@@ -1,0 +1,33 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "Simple to do list app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Catalin Nita",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "json-loader": "^0.5.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-config-utils": "^2.3.1",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4",
+    "write-json-file": "^3.0.2"
+  }
+}
